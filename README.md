@@ -1,5 +1,5 @@
 # docker-pyspark-poc1
-This repository contains a dockerFile for creating an image required for running pytests. Included example runs pytest for a simple ETL script.
+This repository contains a dockerFile for creating an image required for running pytests. This repo includes an example on how to run a pytest for a simple ETL script in Docker container.
 
 Run Steps:
 
