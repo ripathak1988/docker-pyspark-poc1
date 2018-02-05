@@ -13,6 +13,7 @@ Run Steps:
       
 
 3. Run the below command for creating a docker image.
+   
    docker build -t spark .
    
       
