@@ -7,7 +7,9 @@ spark = SparkSession.builder.enableHiveSupport() \
 
 spark.sparkContext.setLogLevel("WARN")
 
- # df1 will have roll_no,name    ||  df2 will have roll_no, marks  || final df will have name and marks
+ # df1 have roll_no and student_name    ||  df2 have roll_no and agg_marks 
+ # final df will have student_name and marks for the students having agg_marks more than 50%
+
 def etl_script1 (df1, df2):
     df1.createOrReplaceTempView('df1')
     df2.createOrReplaceTempView('df2')
