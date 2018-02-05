@@ -7,7 +7,7 @@ Run Steps:
    https://github.com/ripathak1988/docker-pyspark-poc1.git
         
 
-2. Traverse to the root folder (where DockerFile is present)
+2. Traverse to the repository root folder (where DockerFile is present)
 
    cd /path/to/rootFolder/
       
