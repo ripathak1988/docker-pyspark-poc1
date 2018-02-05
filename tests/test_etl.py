@@ -8,7 +8,7 @@ def test_etl_1():
 
         [
             (101, 'Rishi'),
-            (102, 'Manoj'),
+            (102, 'Mayank'),
             (103, 'Prateek'),
             (104, 'Praveen')
         ], ["roll_no", "name"])
@@ -36,7 +36,7 @@ def test_etl_1():
         [
             ('Prateek', 53),
             ('Praveen', 84),
-            ('Manoj', 58),
+            ('Mayank', 58),
         ], ["name", "marks"]
     ).collect()
 
